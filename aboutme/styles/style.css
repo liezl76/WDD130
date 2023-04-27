@@ -3,11 +3,11 @@ body {
 }
 
 h1 {
-  color: green;
+  color: Black;
   background-color: rgb(217, 235, 217);
 }
 h2 {
-  color: green;
+  color: Black;
   background-color: rgb(217, 235, 217);
 }
 img {
@@ -17,6 +17,6 @@ img {
 
 p {
   background-color: rgb(217, 235, 217);
-  color: green;
+  color: Black;
   padding: 10px;
 }
