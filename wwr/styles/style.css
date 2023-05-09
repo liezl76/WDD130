@@ -1,8 +1,39 @@
 body {
-  background-color: lightblue;
+    background-color: #fcfbfb; 
 }
 
 div {
   max-width: 1600px;
 }
 
+header {
+    background-color:rgba(20,30,13, .7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+#hero-msg h1 {
+  text-align: center;
+}
+
+#hero-msg h4 {
+  text-align: center;
+}
+
+.button-box {
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+}
+
+footer {
+  background-color: #fcfbfb;
+}
