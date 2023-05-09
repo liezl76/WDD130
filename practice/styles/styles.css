@@ -1,48 +1,37 @@
-img {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
+body {
+  background: lightblue;
 }
 
-p {
-  width: 80%;
-}
-
-a {
-  font-size: 1.5em;
-  background-color: aliceblue;
-}
-
-* {
-  border: 2px solid blue;
-}
-
-h1{
+h1 {
+  color: white;
   text-align: center;
 }
+h1:hover {
+  background-color: black;
+}
+h2 {
+  color: whitesmoke;
+  text-align: justify;
+}
 
-nav, footer {
-  text-align: center;
+h3 {
+  color: black;
+  text-align: left;
+}
+
+main img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
 }
 
 main p {
-  width: 80%;
-  margin: 50px auto;
+  color: white;
   text-align: center;
 }
 
-nav, footer {
-  background-color: steelblue;
-  color: white;
-  padding: 10px;
-}
-
-footer p {
-  font-size: 20px;
-  margin: 20px auto;
-}
-
-a:hoover {
-  background-color: white;
-  color: steelblue;
+footer {
+  color: black;
+  text-align: center;
+  font-size: 12px;
 }
