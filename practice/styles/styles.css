@@ -16,16 +16,33 @@ h2 {
 
 h3 {
   color: black;
+  font-size: medium;
   text-align: left;
 }
 
-main img {
-  border-radius: 4px;
-  padding: 5px;
+h4 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h5 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h6 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+.prophet-card {
   width: 300px;
 }
 
-main p {
+main {
   color: white;
   text-align: center;
 }
