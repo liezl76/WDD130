@@ -12,6 +12,7 @@ body {
 
 div {
   max-width: 1600px;
+  background-color: whitesmoke;
 }
 
 #content {
@@ -55,6 +56,7 @@ nav a:hover {
 
 .button-box {
   text-align: center;
+  background-color: black;
 }
 
 .logo {
@@ -66,7 +68,7 @@ nav a:hover {
 }
 
 #hero-img {
-  width: 100%;
+  width: 80px;
 }
 
 main section {
@@ -84,15 +86,16 @@ main section {
 }
 
 .msg p {
-  color: white;
+  color: black;
 }
 
 footer {
-  background-color: #fcfbfb;
+  background-color: wheat;
 }
 
 footer p {
   font-size: 1.2em;
+  color: black;
 }
 footer p a:hover {
   text-decoration: underline;
