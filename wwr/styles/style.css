@@ -50,6 +50,10 @@ main section {
   height: 725px;
 }
 
+.icon {
+  width: 80px;
+}
+
 .msg {
   background-color: burlywood;
 }
@@ -74,6 +78,3 @@ footer a:hover {
   background-color: beige;
 }
 
-.icon {
-  width: 80px;
-}
