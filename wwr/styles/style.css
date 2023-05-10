@@ -1,5 +1,5 @@
 body {
-    background-color: #fcfbfb; 
+    background-color: black; 
 }
 
 div {
@@ -7,7 +7,7 @@ div {
 }
 
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(20,30,13,.7);
 }
 
 nav a {
