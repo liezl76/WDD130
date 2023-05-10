@@ -108,3 +108,7 @@ footer a:hover {
   background-color: beige;
   color: black;
 }
+
+footer img {
+  width: 50px;
+}
