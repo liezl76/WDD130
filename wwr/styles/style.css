@@ -36,7 +36,7 @@ nav a:hover {
 
 .book, .join {
   text-align: center;
-  background-color: #fcfbfb;
+  background-color: #f5b88f;
   color: black;
   text-decoration: none;
 }
@@ -56,7 +56,7 @@ nav a:hover {
 .button-box {
   text-align: center;
   color: black;
-  background-color: gray;
+  background-color: #f5b88f;
 }
 
 .logo {
@@ -89,11 +89,11 @@ main section {
 }
 
 .msg {
-  background-color: antiquewhite;
+  background-color: #f5b88f;
 }
 
 .msg h2{
-  background-color: burlywood;
+  background-color: #f5b88f;
   color: black;
 }
 
@@ -121,7 +121,7 @@ footer a {
 }
 
 footer a:hover {
-  background-color: beige;
+  background-color: #fcfbfb;
   color: black;
 }
 
