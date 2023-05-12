@@ -55,8 +55,6 @@ nav a:hover {
 
 .button-box {
   text-align: center;
-  color: black;
-  background-color: #f5b88f;
 }
 
 .logo {
@@ -69,10 +67,6 @@ nav a:hover {
 
 #hero-img {
   width: 100%;
-}
-
-.card-img {
-  width: 500px;
 }
 
 .mountains {
@@ -89,7 +83,7 @@ main section {
 }
 
 .msg {
-  background-color: #f5b88f;
+  background-color: #e76915;
 }
 
 .msg h2{
@@ -108,8 +102,8 @@ footer {
 
 footer p {
   font-size: 1.2em;
-  color: black;
 }
+
 footer p a:hover {
   text-decoration: underline;
 }
@@ -123,8 +117,4 @@ footer a {
 footer a:hover {
   background-color: #fcfbfb;
   color: black;
-}
-
-footer img {
-  width: 80px;
 }
