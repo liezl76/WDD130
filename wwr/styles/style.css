@@ -53,14 +53,17 @@ nav a:hover {
 }
 
 .book, .join {
-  text-align: center;
   background-color: #e76915;
   color: black;
-  font-size: 18px;
   text-decoration: none;
+  font-size: 18px;
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: 5px;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
 }
 
 .icon {
@@ -104,7 +107,7 @@ main section {
 }
 
 main section img {
-  box-sizing: ;
+  box-sizing: border-box;
 }
 
 #background {
