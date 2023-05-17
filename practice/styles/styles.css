@@ -1,8 +1,10 @@
 body {
   background: lightblue;
 }
+
 h1 {
   margin: 50px 0;
+  text-align: center;
 }
 
 nav {
