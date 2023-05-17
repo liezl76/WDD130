@@ -99,6 +99,10 @@ nav a:hover {
   margin: 200px 0;
 }
 
+.card-img {
+  border: 10px;
+}
+
 .mountains {
   width: 725px;
 }
