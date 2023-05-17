@@ -95,12 +95,12 @@ nav a:hover {
   width: 100%;
 }
 
-.card-img {
-  border: 10px;
-}
-
 .rivers-card, .camping-card, .rapid-card {
   margin: 200px 0;
+}
+
+.card-img {
+  border: 10px;
 }
 
 .mountains {
@@ -112,7 +112,7 @@ main section {
 }
 
 main section img {
-  box-sizing: border-box;
+  box-sizing: ;
 }
 
 #background {
