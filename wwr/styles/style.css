@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Montserrat:ital,wght@0,200;1,200&family=Open+Sans:wght@300&display=swap');
+
 .home-title {
   color: black;
+  font-family: 'League of Spartan', 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+#logo_link {
+  padding-top: 5px;
+}
+
+h2 {
+  margin: 0;
 }
 
 h4 {
@@ -8,6 +21,10 @@ h4 {
 
 body {
     background-color: #e76915; 
+    font-family: 'Trebuchet MS', 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 div {
@@ -27,6 +44,7 @@ nav a {
   text-align: center;
   color: black;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
@@ -38,7 +56,15 @@ nav a:hover {
   text-align: center;
   background-color: #e76915;
   color: black;
+  font-size: 18px;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.icon {
+  padding-top: 10px;
 }
 
 .book:hover, .join:hover {
@@ -69,12 +95,24 @@ nav a:hover {
   width: 100%;
 }
 
+.card-img {
+  border: 10px;
+}
+
+.rivers-card, .camping-card, .rapid-card {
+  margin: 200px 0;
+}
+
 .mountains {
   width: 725px;
 }
 
 main section {
   text-align: center;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 #background {
@@ -84,6 +122,8 @@ main section {
 
 .msg {
   background-color: #e76915;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2{
@@ -93,11 +133,15 @@ main section {
 
 .msg p {
   color: black;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer {
   background-color: #f5b88f;
   color: black;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer p {
@@ -117,4 +161,8 @@ footer a {
 footer a:hover {
   background-color: #fcfbfb;
   color: black;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
