@@ -158,6 +158,10 @@ footer a:hover {
   color: black;
 }
 
+.social img {
+  width: 80px;
+}
+
 footer .social img {
   padding-top: 15px;
 }
