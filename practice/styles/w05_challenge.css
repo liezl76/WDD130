@@ -1,0 +1,26 @@
+body {
+  background: white;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+nav {
+  background-color: rgb(111, 112, 113);
+  padding: 30px;
+}
+
+nav img {
+  width: 100px;
+  padding: 35px;
+}
+
+footer {
+  color: black;
+  text-align: center;
+}
+
+footer p {
+  padding: 25px;
+}
