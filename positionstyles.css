@@ -98,28 +98,32 @@
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 250px; 
+  height: 250px; 
   background-color: red;
-  grid-column: 1 / 4 
 } 
 .green4 {
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  grid-row: 1 / 5; 
 } 
 .yellow4 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 3 / 5;
+  grid-row: 3 / 5;
 } 
 .blue4 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-column: 4 / 6;
+  grid-row: 4 / 6; 
 } 
 /* Activity 5 styles */ 
 .content5 {
