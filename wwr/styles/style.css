@@ -37,16 +37,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.card-img {
-  width: 100%;
-  border: 10px solid #d9c2a3;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
-}
 .rivers-card {
   grid-column: 2 / 4;
   grid-row: 2 / 3;
@@ -58,6 +48,16 @@ nav {
 .rapids-card {
   grid-column: 8 / 10;
   grid-row: 2 / 3;
+}
+.card-img {
+  width: 100%;
+  border: 10px solid #d9c2a3;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
 }
 
 .mountains {
