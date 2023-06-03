@@ -118,12 +118,8 @@ body {
     padding: 0;
 }
 
-div {
-  max-width: 1600px;
-  background-color: #faece1;
-}
-
 #content {
+  max-width: 1600px;
   margin: 0 auto;
 }
 
