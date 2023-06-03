@@ -43,6 +43,10 @@ nav {
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
 .rivers-card {
   grid-column: 2 / 4;
   grid-row: 2 / 3;
@@ -55,10 +59,7 @@ nav {
   grid-column: 8 / 10;
   grid-row: 2 / 3;
 }
-.card-img:hover {
-  opacity: .6;
-  transform: scale(1.1);
-}
+
 
 .mountains {
   width: 100%;
@@ -182,7 +183,7 @@ nav a:hover {
   width: 100%;
 }
 
-.rivers-card, .camping-card, .rapid-card {
+.rivers-card, .camping-card, .rapids-card {
   margin: 200px 0;
 }
 
