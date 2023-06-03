@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 'header' 'main main''right' 'footer' ;
+  gap: 10px;
+  background-color: white;
+}
+.grid-container > div {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item2 img {
+  width: 100px;
+}
