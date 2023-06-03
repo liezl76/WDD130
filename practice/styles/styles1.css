@@ -1,0 +1,54 @@
+body {
+  background: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif ;
+}
+h1:hover {
+  color: black;
+}
+h2 {
+  color: whitesmoke;
+  text-align: justify;
+}
+
+h3 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h4 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h5 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h6 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+.prophet-card {
+  width: 300px;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
