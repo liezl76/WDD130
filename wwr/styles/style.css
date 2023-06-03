@@ -60,7 +60,6 @@ nav {
   grid-row: 2 / 3;
 }
 
-
 .mountains {
   width: 100%;
   grid-column: 2 / 7;
@@ -183,20 +182,20 @@ nav a:hover {
   width: 100%;
 }
 
-.rivers-card, .camping-card, .rapids-card {
-  margin: 200px 0;
-}
-
-.mountains {
-  width: 725px;
-}
-
 main section {
   text-align: center;
 }
 
 main section img {
   box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.mountains {
+  width: 725px;
 }
 
 #background {
