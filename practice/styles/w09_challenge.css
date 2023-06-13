@@ -1,0 +1,27 @@
+.body_img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-container > div {
+  background-color: gray;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
