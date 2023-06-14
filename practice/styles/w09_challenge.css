@@ -1,11 +1,11 @@
+.h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
 .body_img {
   width: 100%;
   height: auto;
-}
-
-h1 {
-  text-align: center;
-  font-size: 25px;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 }
 
 .grid-container > div {
-  background-color: gray;
+  background-color: rgb(246, 240, 240);
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
