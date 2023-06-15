@@ -257,13 +257,17 @@ footer .social img {
 /* rafting sub page css  */
 .rivers1-img {
   float:left;
-  margin: 0px 0px 15px 15px;
+  margin: 0px 15px 15px 0px;
+  width: 15%;
+  height: 10%;
 }
 
 .rivers2-img {
   float:left;
-  margin: 0px 0px 15px 15px;
+  margin: 0px 15px 15px 0px;
   clear: both;
+  width: 15%;
+  height: 10%;
 }
 
 .rivers1 {
@@ -276,7 +280,6 @@ footer .social img {
   margin: 0px 0px 15px 0px;
   clear: both;
 }
-
 
 
 @media screen and (max-width: 900px) {
