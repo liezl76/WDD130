@@ -40,7 +40,7 @@ nav {
 
 /*Footer */
 footer {
-  background-color: #6f7364;
+  background-color: #064635;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -71,7 +71,7 @@ h4 {
 }
 
 body {
-    background-color: #5d576b; 
+    background-color: #f4eea9; 
     font-family: 'Trebuchet MS', 'Montserrat', sans-serif;
     font-size: 22px;
     margin: 0;
@@ -84,7 +84,7 @@ body {
 }
 
 header {
-    background-color:#d496a7;
+    background-color:#519259;
     opacity: 0.7;
 }
 
@@ -96,12 +96,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f1dede;
+    background-color: #f0bb64;
     color: black;
 }
 
 .book, .join {
-  background-color: #e76915;
+  background-color: #f4eea9;
   color: black;
   text-decoration: none;
   font-size: 18px;
@@ -160,17 +160,17 @@ main section img {
 
 #background {
   height: 725px;
-  background-color: #f5b88f;
+  background-color: #519259;
 }
 
 .msg {
-  background-color: #e76915;
+  background-color: #519259;
   line-height: 1.5em;
   padding: 35px;
 }
 
 .msg h2{
-  background-color: #f8d8c4;
+  background-color: #f4eea9;
   color: black;
 }
 
@@ -212,7 +212,7 @@ div.desc {
 
 
 footer {
-  background-color: #f1dede;
+  background-color: #519259;
   color: black;
   padding: 25px 50px;
   margin-top: 200px;
