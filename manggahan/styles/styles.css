@@ -40,7 +40,7 @@ nav {
 
 /*Footer */
 footer {
-  background-color: #064635;
+  background-color: #055D12;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -71,7 +71,7 @@ h4 {
 }
 
 body {
-    background-color: #f4eea9; 
+    background-color: #F0F55F; 
     font-family: 'Trebuchet MS', 'Montserrat', sans-serif;
     font-size: 22px;
     margin: 0;
@@ -84,7 +84,7 @@ body {
 }
 
 header {
-    background-color:#519259;
+    background-color:#055D12;
     opacity: 0.7;
 }
 
@@ -96,12 +96,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f0bb64;
+    background-color: #FAF292;
     color: black;
 }
 
 .book, .join {
-  background-color: #f4eea9;
+  background-color: #FAF292;
   color: black;
   text-decoration: none;
   font-size: 18px;
@@ -160,11 +160,11 @@ main section img {
 
 #background {
   height: 725px;
-  background-color: #519259;
+  background-color: #055D12;
 }
 
 .msg {
-  background-color: #519259;
+  background-color: #055D12;
   line-height: 1.5em;
   padding: 35px;
 }
@@ -212,7 +212,7 @@ div.desc {
 
 
 footer {
-  background-color: #519259;
+  background-color: #055D12;
   color: black;
   padding: 25px 50px;
   margin-top: 200px;
