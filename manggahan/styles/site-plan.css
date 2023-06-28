@@ -15,7 +15,7 @@ Fonts are separated by a | */
   --paragraph-font: "Hind", "Open Sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #f0f55f;  /* headlines on a white background */ 
+  --headline-color-on-white: #519259;  /* headlines on a white background */ 
   --headline-color-on-color: black; /* headlines on a colored background */ 
   --paragraph-color-on-white: #055d12; /* paragraph text on a white background */ 
   --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
