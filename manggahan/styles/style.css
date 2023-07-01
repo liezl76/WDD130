@@ -2,8 +2,7 @@
 header {
    display: grid;
    grid-template-columns: 150px auto;
-   background-color:#f5b88f;
-   opacity: 0.6;
+   opacity: 0.9;
 }
 
 nav {
@@ -152,7 +151,7 @@ body {
   background-color: #faece1; 
   font-family: 'Trebuchet MS', 'Montserrat', sans-serif;
   font-size: 18px;
-  margin: 0;
+  margin: 25px;
   padding: 0;
 }
 #content {
@@ -161,28 +160,28 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-#hero, .home-grid {
-  display: block;
-  height: auto;
-}
-nav, footer {
-  flex-direction: column;
-}
-nav a {
-  display: block;
-  padding: 15px;
-}
-#hero {
-  margin-top: 0;
-}
-#hero-msg {
-  margin-top: 0;
-}
+  #hero, .home-title {
+      display: block;
+      height: auto;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  #hero {
+      margin-top: 0;
+  }
+  #hero-msg {
+      margin-top: 0;
+  }
 
-.home-title {
-  font-size: 25px;
-  color: #6f7364;
-}
+  .home-title {
+      font-size: 25px;
+      color: #6f7364;
+  }
 
   #background {
       display: none;
@@ -195,3 +194,4 @@ nav a {
   footer {
       margin-top: 25px;
   }
+}
