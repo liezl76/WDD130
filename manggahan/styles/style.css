@@ -2,11 +2,25 @@
 header {
    display: grid;
    grid-template-columns: 150px auto;
+   background-color:#d84727;
+   opacity: 0.6;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
 }
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 25px;
+}
+nav a:hover {
+  background-color: #042a2b;
+  color: white;
+}
+
 #logo_link {
   padding-top: 5px;
   justify-self: center;
@@ -16,22 +30,6 @@ nav {
   width: 80px; 
 }
 
-header {
-   background-color:#d84727;
-   opacity: 0.6;
-}
-
-nav a {
-  text-align: center;
-  color: black;
-  text-decoration: none;
-  padding: 25px;
-}
-
-nav a:hover {
-  background-color: #042a2b;
-  color: white;
-}
 /*Hero Grid */
 #hero {
   display: grid;
@@ -53,3 +51,5 @@ nav a:hover {
 #hero-msg h1 {
   text-align: center;
 }
+
+/*Hero Grid */
