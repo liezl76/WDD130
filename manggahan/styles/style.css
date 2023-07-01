@@ -159,3 +159,39 @@ body {
   max-width: 1600px;
   margin: auto;
 }
+
+@media screen and (max-width: 900px) {
+#hero, .home-grid {
+  display: block;
+  height: auto;
+}
+nav, footer {
+  flex-direction: column;
+}
+nav a {
+  display: block;
+  padding: 15px;
+}
+#hero {
+  margin-top: 0;
+}
+#hero-msg {
+  margin-top: 0;
+}
+
+.home-title {
+  font-size: 25px;
+  color: #6f7364;
+}
+
+  #background {
+      display: none;
+  }
+  .marker, .msg {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+  }
+  footer {
+      margin-top: 25px;
+  }
