@@ -194,4 +194,8 @@ body {
   footer {
       margin-top: 25px;
   }
+  .youtube {
+    display: block;
+    margin: auto;
+  }
 }
