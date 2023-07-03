@@ -189,11 +189,11 @@ body {
   }
   
   div.scroll-container img {
-  width: 25%;
-  padding: 10px;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-}
+      width: 25%;
+      padding: 10px;
+      aspect-ratio: 3/2;
+      object-fit: contain;
+  }
 
   #background {
       display: none;
