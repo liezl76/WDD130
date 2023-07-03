@@ -4,13 +4,13 @@
 .home-title {
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
+  font-size: 48px;
   margin-top: 10px;
 }
 body {
-  background-color: #f5b88f; 
+  background-color: #faece1; 
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   margin: 25px;
   padding: 0;
 }
@@ -122,9 +122,9 @@ div.scroll-container img {
 }
 .msg {
   background-color: #f5a17a;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 1.5em;
-  padding: 35px;
+  padding: 25px;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
