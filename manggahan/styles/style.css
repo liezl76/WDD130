@@ -77,14 +77,14 @@ nav a:hover {
 }
 
 /*Image Gallery */
-scroll-container {
+.scroll-container {
   background-color: #f5e0e0;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
 }
 
-scroll-container img {
+.scroll-container img {
   width: 25%;
   padding: 10px;
   aspect-ratio: 3/2;
