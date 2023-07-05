@@ -1,5 +1,5 @@
 /* for fonts and etc  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 .home-title {
   color: black;
@@ -77,14 +77,14 @@ nav a:hover {
 }
 
 /*Image Gallery */
-div.scroll-container {
+scroll-container {
   background-color: #f5e0e0;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
 }
 
-div.scroll-container img {
+scroll-container img {
   width: 25%;
   padding: 10px;
   aspect-ratio: 3/2;
@@ -104,9 +104,7 @@ div.scroll-container img {
 /*background */
 #background {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-#background {
+  grid-template-columns: repeat(10,1fr);
   background-color: #e76915;
   padding: 35px;
   grid-column: 1/11;
