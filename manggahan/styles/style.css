@@ -91,21 +91,6 @@ nav a:hover {
   object-fit: contain;
 }
 
-/*Image Gallery About Guimaras */
-.about-us-container {
-  background-color: #f5e0e0;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-.about-us-container img {
-  width: 25%;
-  padding: 10px;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-}
-
 /* Youtube */
 .youtube {
   display: block;
@@ -200,7 +185,7 @@ footer .social img {
       color: #6f7364;
   }
   
-  div.scroll-container img {
+  .scroll-container img {
       width: 25%;
       padding: 10px;
       aspect-ratio: 3/2;
