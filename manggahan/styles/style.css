@@ -76,6 +76,12 @@ nav a:hover {
   text-align: center;
 }
 
+/*Main */
+
+h1 {
+  text-align: center;
+}
+
 /*Image Gallery */
 .scroll-container {
   background-color: #f5e0e0;
