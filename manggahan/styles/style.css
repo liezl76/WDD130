@@ -19,6 +19,11 @@ body {
   margin: auto;
 }
 
+.content-msg {
+  text-align: justify;
+  padding: 1%;
+}
+
 /* Header */
 header {
   display: grid;
