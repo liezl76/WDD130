@@ -79,6 +79,11 @@ h1 {
   text-align: center;
 }
 
+.about-us p {
+  text-align: justify;
+  padding: 1%;
+}
+
 /*Image Gallery */
 .scroll-container {
   background-color: #f5e0e0;
