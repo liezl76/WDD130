@@ -147,28 +147,34 @@ h1 {
 /* More*/
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
+.more-container {
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 20px;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.more-container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.more-container .box .manggahan {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.more-container .box .manggahan img {
   width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
