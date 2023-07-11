@@ -21,7 +21,7 @@ body {
 
 .content-msg {
   text-align: justify;
-  padding: 2em;
+  padding: 0 0 10px 0;
 }
 
 /* Header */
