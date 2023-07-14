@@ -152,35 +152,21 @@ p {
   padding: 0;
 }
 
-.more-container {
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.manggahan {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 20px 20px;
 }
 
-.more-container .box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.more-container .box .manggahan {
-  display: flex;
-  flex-direction: column;
-  width: 32.5%;
-}
-
-.more-container .box .manggahan img {
+.manggahan img {
   width: 100%;
   padding-bottom: 15px;
   border-radius: 5px;
-}
-
-.more-msg h1 {
-  text-align: center;
-  padding-bottom: 15px;
 }
 
 
